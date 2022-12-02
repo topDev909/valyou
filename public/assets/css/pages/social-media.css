@@ -1,0 +1,927 @@
+.number-input-music {
+	padding: 6px 12px !important;
+	height: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.client-input {
+	padding: 30px 0 15px 0;
+	height: 100%;
+	min-height: 200px;
+}
+/*/////////////////////////////*/
+
+.select2-container {
+	width: 100% !important;
+}
+
+.fw-600 {
+	font-weight: 600;
+	font-family: 'Roboto';
+	font-size: 22.75px;
+	margin: 10px auto;
+}
+
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light.focus,
+.btn-light:focus,
+.btn-light:hover {
+	color: #fff;
+	/* background-color: #cdd6e6; */
+	background-image: linear-gradient(77deg, #00FFC2, #00B8BA 100%);
+}
+.error_message{
+    display: none;
+}
+.dollar-price.active{
+    color: #fff;
+    /* background-color: #cdd6e6; */
+    background-image: linear-gradient(77deg, #00FFC2, #00B8BA 100%);
+}
+
+
+.btn-margin {
+	margin: 65px;
+}
+
+.input-price-div {
+	background: #ffffff;
+	border-radius: 30px;
+	margin-top: 35px;
+}
+
+.input-price-div p {
+	padding: 5px;
+}
+
+input.minus {
+	background: transparent;
+	border: 0px;
+	font-weight: 600;
+	text-align: center;
+	font-size: 20px;
+}
+
+input.plus {
+	background: transparent;
+	border: 0px;
+	font-weight: 600;
+	text-align: center;
+	font-size: 20px;
+}
+
+.share-valyou-prices ul li input[type=checkbox],
+input[type=radio] {
+	margin: 26px 100px 26px;
+	display: none;
+}
+
+.radio {
+	border: 1px solid lightgray;
+	background-color: transparent;
+	color: gray;
+	width: 81px;
+	height: 81px;
+	margin: -10px auto;
+	padding: 19px 23px 20px;
+	border-radius: 100%;
+	font-size: 29px;
+	font-weight: 600;
+}
+
+.valyou-g-btn {
+	color: #fff;
+	padding: 10px 15px;
+	background-image: linear-gradient(77deg, #00B8BA, #00FFC2 100%);
+	border: none;
+	width: 100%;
+	max-width: 175px;
+}
+
+.valyou-g-btn:hover {
+	color: #fff;
+	background-image: linear-gradient(77deg, #00FFC2, #00B8BA 100%);
+}
+
+.price-card {
+	background-image: linear-gradient(77deg, #00FFC2, #00B8BA 100%);
+	border-radius: 15px;
+}
+
+.input-qty {
+	background: transparent;
+	border: none;
+	width: 100%;
+	max-width: 160px;
+	font-size: 34px;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	text-align: center;
+}
+
+.input-qty::before {
+	content: '\f155';
+	font-family: 'FontAwesome';
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+	justify-content: center;
+}
+
+.input-qty:focus {
+	background: transparent;
+	border: none;
+	width: 100%;
+	max-width: 160px;
+	font-size: 34px;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	outline: none;
+}
+
+.video:focus {
+	outline: none;
+}
+
+.cover-bg {
+	background-color: #000!important;
+	padding: 0.5rem!important;
+	margin: -20px;
+}
+
+.padding-n {
+	padding: 0px !important;
+	display: table;
+}
+
+.margin-n {
+	margin: 0px !important;
+}
+
+img.uploading-section-artist-img {
+	height: 100%;
+	width: 100%;
+	max-width: 110px;
+	max-height: 110px;
+}
+
+p.uploading-section-artist-p1 {
+	font-size: 21px;
+	font-weight: 500;
+	margin: 0px;
+    color: #000;
+}
+
+p.uploading-section-artist-p2 {
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p.uploading-section-artist-p3 {
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0px;
+}
+
+img.uploading-section-artist-icon-img {
+	width: 100%;
+	max-width: 15px;
+}
+
+.uploading-section-artist-main-heading {
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.up-change-stock {
+    font-size: 16px;
+    color: #1cea2c;
+    cursor: pointer
+}
+
+.down-change-stock {
+    font-size: 16px;
+    color: #ff0093;
+    cursor: pointer;
+}
+
+.uploading-section-artist-sub-heading {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0px;
+}
+
+.post-now-btn {
+	color: #fff;
+	padding: 11px 13px;
+	background-image: linear-gradient(77deg, #FF4182, #FFA85B 100%);
+	border: none;
+	width: 100%;
+	max-width: 133px;
+}
+
+.post-now-btn:hover {
+	color: #fff;
+	background-image: linear-gradient(77deg, #FFA85B, #FF4182 100%);
+}
+
+/* p.post-section-artist-p1 {
+	font-size: 24px;
+	font-weight: 500;
+	margin: 0px;
+	color: #F24336;
+} */
+
+.light-gray-color {
+	color: gray;
+}
+
+.post-section-para {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+p#para1 {
+	color: #FF4182;
+	margin: 0px 0px -8px;
+}
+
+p#para2 {
+	color: #FF4182;
+	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
+}
+
+p#para3 {
+	color: #F41C8C;
+	margin: -20px 7px 1px;
+	font-size: 14px;
+}
+
+.valyou-o-btn-invest {
+	padding: 11px;
+	color: #fff;
+	background-image: linear-gradient(77deg, #FF4182, #FFA85B 100%);
+	border: none;
+	width: 100%;
+	font-size: 30px;
+	margin-top: 7px;
+}
+
+.padding-none {
+	padding: 0px
+}
+
+.padding-r {
+	padding-right: 0px;
+}
+
+/* .card.shadow-none:hover {
+	box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.3)!important;
+	border-radius: 28px;
+} */
+
+/* .card.shadow-none {
+	box-shadow: none !important;
+	border-radius: 28px;
+	height: 100%;
+	max-height: 110px;
+} */
+
+.uploading-section-upload-img {
+	width: 100%;
+	max-width: 45px;
+	padding: 5px 5px 5px;
+}
+
+img.post-section-img {
+	max-height: 400px;
+	width: 100%;
+}
+
+p.sponsored-section-p1 {
+	color: #FF4182;
+	font-size: 20px;
+}
+
+p.sponsored-section-p2 {
+	font-size: 45px;
+	font-weight: 500;
+	margin: 0px;
+	color: #5D5D5D;
+}
+
+p.sponsored-section-p3 {
+	font-size: 29px;
+	color: gray;
+	font-weight: 100;
+}
+
+.valyou-o-btn-invest-lg {
+	padding: 11px;
+	color: #fff;
+	background-image: linear-gradient(77deg, #FF4182, #FFA85B 100%);
+	border: none;
+	width: 100%;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+.p-none {
+	padding: unset;
+}
+
+p#para1 {
+	color: #FF4182;
+	margin: 0px 0px -8px;
+}
+
+p#para2 {
+	color: #FF4182;
+	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
+}
+
+p#para3 {
+	color: gray;
+	margin: -20px 7px 1px;
+}
+
+.share-box-image {
+	height: 100%;
+	width: 100%;
+	max-height: 50px;
+	object-fit: contain;
+}
+
+#uploading-section-artist-mobile .tab-select {
+	margin-top: 0px !important;
+}
+
+div#uploading-section-artist-mobile {
+	margin: 0px !important;
+}
+
+#upper-exchange {
+	display: none;
+}
+
+.container-fluid #lower-exchange {
+	display: flex;
+    text-transform: uppercase;
+}
+
+.col-5.carosel-box-img-div .rounded-circle {
+	width: 60px;
+	height: 60px;
+    object-fit: cover !important;
+}
+
+img.avatar-md.post-img {
+	height: 100%;
+	width: 100%;
+	max-width: 41px;
+}
+
+input.form-control.uploading-section-title {
+	border: none;
+}
+
+input.form-control.uploading-section-title::placeholder {
+	color: #000;
+	font-size: 16px;
+}
+
+input.form-control.uploading-section-title :-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #000;
+	font-size: 16px;
+}
+
+input.form-control.uploading-section-title ::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #000;
+	font-size: 16px;
+}
+
+img.avatar-md.post-img {
+	height: 85px;
+	width: 100%;
+	max-width: 85px;
+}
+
+img.post-section-artist-img {
+	width: 100%;
+	max-width: 85px;
+}
+
+@media (max-width: 1024px) {
+	.fw-600 {
+		font-weight: 600;
+		font-family: 'Roboto';
+		font-size: 11.5px;
+		margin: 10px auto;
+	}
+	.valyou-o-btn-invest-lg {
+		padding: 11px;
+		color: #fff;
+		background-image: linear-gradient(77deg, #FF4182, #FFA85B 100%);
+		border: none;
+		width: 100%;
+		font-size: 16px;
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 425px) {
+	p.text-dark.font-size-12.artist-comment-name {
+		margin: 8px 0px 0px;
+	}
+
+
+
+	/*.page-content {
+    padding: 191px 12px 60px  !important;
+    background-image: url(http://myprojectstaging.com/valyouxmusic/public/assets/images/valyoux/linear_slant_gradient@3x.png) !important;
+    background-repeat: no-repeat  !important;
+    background-attachment: fixed !important;
+    background-size: cover  !important;
+    background-position: center  !important;
+    min-height: 500px  !important;
+    }
+
+    */
+	.artist-comment-desc {
+		margin-top: 0px !important;
+	}
+	.input-qty {
+		background: transparent;
+		border: none;
+		width: 100%;
+		max-width: 100px;
+		font-size: 34px;
+		color: #000;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 600;
+		text-align: center;
+	}
+	.input-qty:focus {
+		background: transparent;
+		border: none;
+		width: 100%;
+		max-width: 100px;
+		font-size: 34px;
+		color: #000;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 600;
+		text-align: center;
+		outline: none;
+	}
+	input.form-control.uploading-section-title {
+		border: none;
+	}
+	input.form-control.uploading-section-title::placeholder {
+		color: #000;
+		font-size: 12px;
+	}
+	input.form-control.uploading-section-title :-ms-input-placeholder {
+		/* Internet Explorer 10-11 */
+		color: #000;
+		font-size: 12px;
+	}
+	input.form-control.uploading-section-title ::-ms-input-placeholder {
+		/* Microsoft Edge */
+		color: #000;
+		font-size: 12px;
+	}
+	p#para2 {
+		color: #FF4182;
+		font-size: 12px !important;
+		font-weight: 900;
+		font-family: 'Roboto', sans-serif;
+	}
+	img.post-bottom-cover-image {
+		width: 34px;
+	}
+	.scrolling {
+		font-size: 10px;
+	}
+	.scrolling p {
+		font-size: 10px!important;
+	}
+	.col-lg-7.col-6.post-header-bar {
+		margin: 8px 0px 0px;
+	}
+	.post-now-btn {
+		color: #fff;
+		padding: 4px 12px;
+		background-image: linear-gradient(77deg, #FF4182, #FFA85B 100%);
+		border: none;
+		width: 100%;
+		max-width: 111px;
+		font-size: 15px;
+	}
+	.uploading-section-upload-img {
+		width: 100%;
+		max-width: 22px;
+		padding: 5px 0px 9px;
+		margin: 0px 2px 0px;
+	}
+	.col-lg-10.col-8.mt-4.marginnone {
+		margin: 0px 0px 0px !important;
+		padding: 0px 0px 0px !important;
+	}
+	/*img.rounded-circle {
+    width: 16px;
+    }*/
+	p.post-section-artist-p1 {
+		font-size: 16px;
+		margin: 0px;
+		color: #F24336;
+		font-family: 'Roboto';
+	}
+	img.post-section-artist-img.rounded-circle {
+		width: 59px;
+		height: 59px;
+	}
+	p.post-section-artist-p2.light-gray-color {
+		font-size: 9.5px !important;
+	}
+	p.float-right.mt-2.light-gray-color {
+		font-size: 9.5px;
+	}
+	.post-section-para {
+		font-size: 16px;
+	}
+	p#para1 {
+		color: #FF4182 !important;
+		margin: -5px 0px -4px !important;
+		font-size: 7px !important;
+		line-height: 2 !important;
+	}
+	p#para2 {
+		color: #FF4182;
+		font-size: 13px !important;
+		letter-spacing: 1px;
+		font-weight: 500;
+		font-family: 'Roboto';
+		font-family: 'Roboto', sans-serif;
+	}
+	p#para3 {
+		color: gray;
+		margin: -14px 0px 1px !important;
+		font-size: 7px;
+	}
+	.valyou-o-btn-invest {
+		padding: 4px 9.5px 3px 10.5px;
+		color: #fff;
+		background-image: linear-gradient(81deg, #f41c8c 4%, #f24a28 64%, #f2482d 65%, #ffc26f);
+		border: none;
+		width: 100%;
+		height: 100%;
+		font-size: 7px;
+		font-weight: 500;
+		margin-top: -90px !important;
+		max-height: 24px;
+		border-radius: 2.5px;
+		font-size: 7px !important;
+	}
+	.share-box-image {
+		height: 100%;
+		/* max-width: 11.9px; */
+		width: 100%;
+		object-fit: contain;
+		max-height: 22.9px !important;
+		height: 100%;
+	}
+	/* .card.shadow-none:hover {
+		box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.3)!important;
+		border-radius: 17px;
+	} */
+	/* .card.shadow-none {
+		box-shadow: none !important;
+		border-radius: 28px;
+		height: 100%;
+		max-height: 110px;
+	} */
+	.tri-angle {
+		background-image: linear-gradient(344deg, #fffF 96%, #FFA84D 47%, #F33654 46%);
+		background-position-y: 1px;
+		margin: 0px !important;
+	}
+	.valyou-o-btn-invest-lg {
+		padding: 8px 27px;
+		color: #fff;
+		background-image: linear-gradient(77deg, #FF4182, #FFA85B 100%);
+		border: none;
+		font-size: 15px;
+		margin-top: 10px;
+	}
+	p.sponsored-section-p2 {
+		font-size: 27px;
+		font-weight: 500;
+		margin: 0px;
+		color: #5D5D5D;
+	}
+	p.sponsored-section-p3 {
+		font-size: 18px;
+		color: gray;
+		font-weight: 100;
+	}
+	p.sponsored-section-p1 {
+		color: #FF4182;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 768px) {
+	.artist-comment-time-period {
+		margin: 0px 0px 0px !important;
+	}
+	.artist-comment-time-period {
+		color: #ccc!important;
+		font-size: 8px;
+	}
+	.artist-comment-desc {
+		margin: 10px 40px -5px;
+	}
+	img.comment-btn {
+		width: 100%;
+		max-width: 26px;
+		margin-top: 2px;
+	}
+	.chat-input {
+		border-radius: 30px;
+		background-color: #eff2f7!important;
+		border-color: #eff2f7!important;
+		padding-right: 0px;
+		font-size: 10px;
+	}
+	.mt-0-mobile {
+		margin-top: 0px !important;
+		padding-left: 28px;
+	}
+	.p-0-mobile {
+		padding: 0px;
+	}
+	.artist-comment-image-div .col-md-8.col-10.mt-4 {
+		margin: 0px !important;
+		padding: 0px 0px 0px;
+	}
+	.avatar-md {
+		height: 60px;
+		width: 60px;
+        object-fit: cover;
+	}
+	.valyou-o-btn-invest {
+		padding: 6px;
+		color: #fff;
+		background-image: linear-gradient(81deg, #f41c8c 4%, #f24a28 64%, #f2482d 65%, #ffc26f);
+		border: none;
+		width: 100%;
+		font-size: 25px;
+		font-weight: 500;
+		margin-top: 10px;
+	}
+
+
+	.btn-margin {
+		margin: 35px 0px;
+	}
+	.radio {
+		border: 1px solid lightgray;
+		background-color: transparent;
+		color: gray;
+		width: auto;
+		height: 100%;
+		height: 39px;
+		margin: -10px auto;
+		padding: 11px 12px 20px;
+		border-radius: 100%;
+		font-size: 12px;
+		font-weight: 500;
+		text-align: center;
+	}
+	button.btn.btn-light.radio.dollar-price {
+		margin: 2px;
+	}
+	/*.page-content {
+padding: 191px 12px 60px;
+background-image: url('http://myprojectstaging.com/valyouxmusic/public/assets/images/valyoux/linear_slant_gradient@3x.png') !important;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+*/
+	#upper-exchange {
+		display: flex !important;
+        text-transform: uppercase;
+	}
+
+
+
+	.container-fluid #lower-exchange {
+		display: none !important;
+	}
+	.uploading-section-artist {
+		display: none;
+	}
+	.uploading-section-artist-mobile {
+		display: block !important;
+		background-image: linear-gradient(81deg, #f41c8c 4%, #f24a28 64%, #f2482d 65%, #ffc26f);
+		margin-bottom: -94px;
+	}
+	img.uploading-section-artist-mobile--icon-img {
+		width: 100%;
+		height: auto;
+	}
+	.carosel-box.col-4 {
+		padding: 0px 0px 0px;
+	}
+	.carosel-box-img-div {
+		padding: 0px 0px 0px;
+	}
+	p.uploading-section-artist-mobile-p1 {
+		font-size: 11px;
+		color: black;
+		font-weight: 1000;
+		font-family: 'Roboto';
+		margin: 14px 0px 0px;
+	}
+	p.uploading-section-artist-mobile-p2 {
+		font-size: 11px;
+		color: black;
+		font-weight: 700;
+		font-family: 'Roboto';
+		margin: 0px 0px 0px;
+	}
+	p.uploading-section-artist-mobile-p3 {
+		font-size: 11px;
+		color: #fff;
+	}
+	img.uploading-section-artist-mobile--icon-img {
+		width: 100%;
+		height: auto;
+		max-width: 9px;
+	}
+	.carosel-box-img-div {
+		margin: 0px;
+		padding: 0px;
+	}
+	img.uploading-section-artist-mobile-img {
+		height: 100%;
+		width: 100%;
+	}
+	.carosel-box.col-4 {
+		margin: 0px 12px 0px;
+	}
+	img.post-section-artist-img {
+		width: 100%;
+		/* border: 1px solid #00FBC2; */
+	}
+	p#para1 {
+		color: #FF4182;
+		margin: 0px 0px -8px;
+		font-size: 10px;
+		line-height: 2;
+	}
+	p#para2 {
+		color: #FF4182;
+		font-size: 12px !important;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 800;
+	}
+	p#para3 {
+		color: gray;
+		margin: -20px 0px 1px;
+		font-size: 7px;
+	}
+	.valyou-o-btn-invest {
+		padding: 6px;
+		color: #fff;
+		background-image: linear-gradient(81deg, #f41c8c 4%, #f24a28 64%, #f2482d 65%, #ffc26f);
+		border: none;
+		width: 100%;
+		font-size: 6px;
+		font-weight: 500;
+		margin-top: 10px;
+	}
+	p.card-text.mobile-v {
+		font-size: 11px;
+	}
+	.padding-r {
+		padding-right: 0px;
+	}
+	p.uploading-section-artist-sub-heading .mb-2 {
+		display: none;
+	}
+	.tri-angle {
+		background-image: linear-gradient(349deg, #fffF 94%, #FFA84D 47%, #F33654 46%);
+		background-position-y: 1px;
+		margin-top: 45px !important;
+	}
+	.share-box-image {
+		height: 100%;
+		width: 100%;
+		max-height: 35px;
+		object-fit: contain;
+	}
+	.body-p {
+		padding: 17px 0px 0px 0px !important;
+	}
+	.share-box-image {
+		height: 100%;
+		width: 100%;
+		max-height: 22px !important;
+		object-fit: contain;
+	}
+	.invest-an-artist h2 {
+	    font-size: 16px;
+    }
+    .card.bg-black {
+    	height: 80px !important;
+    }
+}
+
+@media (max-width: 320px) {
+	p.card-text.mobile-v {
+		font-size: 7px;
+		font-weight: 600;
+	}
+	.artist-comment-desc {
+		margin-top: 0px !important;
+	}
+	.artist-comment-name {
+		margin: 0px;
+	}
+	p.card-text.mobile-v {
+		font-size: 7px;
+		font-weight: 600;
+	}
+	.artist-comment-desc {
+		margin-top: 0px !important;
+	}
+	.artist-comment-name {
+		margin: 0px;
+	}
+	.tri-angle {
+		background-image: linear-gradient(337deg, #fffF 96%, #FFA84D 47%, #F33654 46%);
+		background-position-y: 1px;
+		margin: 0px !important;
+	}
+	/*p#para1 {ca
+    color: #FF4182;
+    margin: 0px 0px -8px;
+    font-size: 8px !important;
+    line-height: 3;
+    }
+    p#para2 {
+    color: #FF4182;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    }*/
+}
+
+@media (max-width:1050px) {
+	p.uploading-section-artist-p1 {
+		font-size: 20px !important;
+		font-weight: 500;
+		margin: 0px;
+	}
+	p.uploading-section-artist-p3 {
+		font-size: 10px;
+		font-weight: 700;
+		margin: 0px;
+	}
+}
+
+p.share-price {
+	color: #FF4182;
+}
+
+.invest-an-artist h2 {
+	color: #FF4182;
+}
+
+.card.bg-black {
+	padding: 0.25rem !important;
+}
+
+.card.bg-black .card-body {
+	padding: 0.25rem !important;
+}
+
+.hint-img {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
